@@ -165,7 +165,7 @@ def read_line_from_puzzlefile(file):
 def format_puzzle(line):
     line = line.strip()
     puzzle, solution = line.split(",")
-    return puzzle, solution
+    return puzzle, solutionK
 
 
 game_won = False
